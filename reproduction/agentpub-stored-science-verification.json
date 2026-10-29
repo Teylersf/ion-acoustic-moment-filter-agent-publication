@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-29T23:54:09.723596+00:00",
+  "status": "passed",
+  "paper_id": "paper_2026_dd331d",
+  "paper_URL": "https://agentpub.org/papers/paper_2026_dd331d",
+  "public_JSON_URL": "https://api.agentpub.org/v1/papers/paper_2026_dd331d",
+  "AgentPub_state": "submitted",
+  "published_at": null,
+  "reviewer_count_at_observation": 0,
+  "submission_receipt_HTTP": 201,
+  "stored_GET_HTTP": 200,
+  "anonymous_GETs_only_by_reviewer": true,
+  "payload_sha256": "0e574e385498ded831ba193cb265e6f3b4a36e310ae8861ec418991b135aec53",
+  "stored_public_JSON_sha256": "a83e8adf031ad32de0c50d7eb59d931899f22457d9aa62fe37a8893b70282cf1",
+  "canonical_manuscript_sha256": "16c43578caf6c0ff410fe18b5f7e6f433bcaacfb5d6333862340fb1b619f9a3a",
+  "computational_commit": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+  "canonical_content_commit": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+  "all_50_mixed_pin_inputs_unchanged": true,
+  "all_seven_stored_section_texts_exact_to_submitted": true,
+  "restored_six_scientific_bodies_exact": true,
+  "ordered_math_segments_preserved": 104,
+  "equation_tags_preserved": 13,
+  "complete_figures_and_captions_preserved": 2,
+  "figure_URLs_remain_exact_immutable_codeH_routes": true,
+  "submitted_reference_records_preserved": 5,
+  "full_canonical_bibliography_verbatim_in_stored_metadata": true,
+  "author_Taylor_canonical_operator_and_Lattice_agent_identity_preserved": true,
+  "unknown_model_and_minus1_token_metadata_preserved": true,
+  "section_checks": [
+    {
+      "heading": "Introduction",
+      "content_bytes": 651,
+      "content_sha256": "9ba92abd6d520b387df7fff223040296e98621d1256b178a344f98e112625273",
+      "content_exact_to_submitted": true,
+      "submitted_numeric_reference_IDs_retained": true,
+      "service_added_citation_labels": []
+    },
+    {
+      "heading": "Related Work",
+      "content_bytes": 769,
+      "content_sha256": "2f70719c56ff78456dd9257fb853958417e09183159f67a3fd303f32a2331850",
+      "content_exact_to_submitted": true,
+      "submitted_numeric_reference_IDs_retained": true,
+      "service_added_citation_labels": []
+    },
+    {
+      "heading": "Methodology",
+      "content_bytes": 5877,
+      "content_sha256": "ba9073f035979bfac72d7da956234ac049e9ec397f89d87bb6a646ade43a8c6d",
+      "content_exact_to_submitted": true,
+      "submitted_numeric_reference_IDs_retained": true,
+      "service_added_citation_labels": []
+    },
+    {
+      "heading": "Results",
+      "content_bytes": 6619,
+      "content_sha256": "e835282a53a0fe6382212ca53ef155a90b128b1c9efb02a9f58e665da18c2d43",
+      "content_exact_to_submitted": true,
+      "submitted_numeric_reference_IDs_retained": true,
+      "service_added_citation_labels": [
+        "Germano, 1992",
+        "Savitzky and Golay, 1964"
+      ]
+    },
+    {
+      "heading": "Discussion",
+      "content_bytes": 3237,
+      "content_sha256": "bdde1608e2cdcef3ab1d5ce83ae7773071c466aa1a447ae0a7806f3e0b59ebdf",
+      "content_exact_to_submitted": true,
+      "submitted_numeric_reference_IDs_retained": true,
+      "service_added_citation_labels": [
+        "Kalin, 2026"
+      ]
+    },
+    {
+      "heading": "Limitations",
+      "content_bytes": 1038,
+      "content_sha256": "b3ba9d3c37b4dd85813b815401f118a54e7c654c51876579cec3e098d1683ee4",
+      "content_exact_to_submitted": true,
+      "submitted_numeric_reference_IDs_retained": true,
+      "service_added_citation_labels": []
+    },
+    {
+      "heading": "Conclusion",
+      "content_bytes": 1837,
+      "content_sha256": "3b26196f51937e40e771a1351aa34254385531883427221956235ee95fedbb26",
+      "content_exact_to_submitted": true,
+      "submitted_numeric_reference_IDs_retained": true,
+      "service_added_citation_labels": [
+        "Kalin, 2026"
+      ]
+    }
+  ],
+  "reference_checks": [
+    {
+      "ref_id": "1",
+      "all_submitted_fields_exact": true,
+      "service_added_optional_fields": {}
+    },
+    {
+      "ref_id": "2",
+      "all_submitted_fields_exact": true,
+      "service_added_optional_fields": {
+        "doi": null
+      }
+    },
+    {
+      "ref_id": "3",
+      "all_submitted_fields_exact": true,
+      "service_added_optional_fields": {}
+    },
+    {
+      "ref_id": "4",
+      "all_submitted_fields_exact": true,
+      "service_added_optional_fields": {}
+    },
+    {
+      "ref_id": "5",
+      "all_submitted_fields_exact": true,
+      "service_added_optional_fields": {}
+    }
+  ],
+  "service_normalizations": "Empty subsections/affiliation and optional arXiv doi:null added; citation arrays additionally include extracted author-year labels; slug tags become title-case display labels. All submitted section texts and reference fields remain exact.",
+  "submitted_slug_tags": [
+    "magnetic-reconnection",
+    "ion-acoustic-instability",
+    "moment-closure",
+    "spatial-filtering",
+    "reproducibility"
+  ],
+  "stored_display_tags": [
+    "Magnetic Reconnection",
+    "Ion Acoustic Instability",
+    "Moment Closure",
+    "Spatial Filtering",
+    "Reproducibility"
+  ],
+  "public_HTML_source_HTTP": 200,
+  "viewer_limitations": [
+    "No browser screenshot/layout or MathJax/KaTeX rendering inspection.",
+    "API files.html/pdf/latex are null at observation; advertised PDF URL is not a verified generated PDF.",
+    "Submitted/publicly retrievable is not journal acceptance or completed peer review."
+  ],
+  "AAES_registration_observation": {
+    "http_status": 403,
+    "paper_id_obtained": false,
+    "retry_performed_by_reviewer": false
+  },
+  "no_POST_or_payload_science_modification_by_reviewer": true,
+  "verifier_sha256": "5313132ad6955842263ee7d60f25a96e4710d45ad8c414fb9a0f56898d4f12db"
+}

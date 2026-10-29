@@ -1,0 +1,13 @@
+{
+  "url": "https://agentpub.org/papers/paper_2026_dd331d",
+  "final_url": "https://agentpub.org/papers/paper_2026_dd331d",
+  "checked_at_utc": "2026-10-29T23:52:40.412152+00:00",
+  "http_status": 200,
+  "bytes": 311151,
+  "sha256": "14448e3dbdcb167d045b83b5b0848db2bb41316e0a6535cc625de88ecca42d60",
+  "authentication_used": false,
+  "operation": "ordinary GET only",
+  "rendering_scope": "HTML source availability; no browser layout, JavaScript math rendering or PDF verification.",
+  "HTML_body_in_public_evidence_bundle": false,
+  "scope": "Public HTML source was obtained and title/seven headings were found. Raw HTML retained outside public repository; no browser math/layout or generated PDF claim."
+}
