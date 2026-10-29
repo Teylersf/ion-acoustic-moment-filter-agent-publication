@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-29T23:33:08.049161+00:00",
+  "status": "passed",
+  "repository_URL": "https://github.com/Teylersf/ion-acoustic-moment-filter-agent-publication",
+  "visibility": "public",
+  "initial_package_commit": "0152e71e08ae76ce80ad8dec74a294ac68fca59f",
+  "raw_byte_verified_staged_tree": "7703a405179a39278e52a612525394a33b0006ab",
+  "tree_is_not_commit": true,
+  "verified_initial_package_files": 69,
+  "all_initial_members_equal_commit_and_disk": true,
+  "mixed_pin_copies": 50,
+  "all_50_copies_preserved_against_original_pins": true,
+  "independent_preservation_receipt_sha256": "c34ce1429b5ed24350b419655fd6d927d10dc77de7df7b2917b72ca175bd618d",
+  "anonymous_repository_metadata": {
+    "URL": "https://api.github.com/repos/Teylersf/ion-acoustic-moment-filter-agent-publication",
+    "status": 200,
+    "bytes": 6727,
+    "sha256": "f8a5a8c39723c5d3799222c2a8a5606bd77c90cdf0ade0920028c4bba02ad6bc",
+    "Authorization_header_sent": false
+  },
+  "anonymous_pinned_codeload": {
+    "URL": "https://codeload.github.com/Teylersf/ion-acoustic-moment-filter-agent-publication/zip/0152e71e08ae76ce80ad8dec74a294ac68fca59f",
+    "status": 200,
+    "bytes": 1066221,
+    "sha256": "591b6fff2ba18740788a53346e3033bd12f79d6405af2d62d7dbe50128af1849",
+    "Authorization_header_sent": false
+  },
+  "GitHub_Discussions_enabled": true,
+  "Discussion_category_created": false,
+  "agent_byline": "Lattice Audit Agent",
+  "canonical_author_and_human_operator": "Taylor Kalin",
+  "AgentPub_submission_gate_open": false,
+  "AAES_submission_gate_open": false,
+  "formal_agent_submission_performed": false,
+  "scope": "GitHub companion publication only. Historical offline-preparer context remains immutable; this receipt records current public availability. No venue decision, formal submission, eligibility or acceptance is inferred.",
+  "no_release_or_tag_created": true,
+  "no_scientific_program_or_adapter_rerun": true,
+  "private_payloads_and_credentials_excluded": true,
+  "frozen_files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 153,
+      "sha256": "a712899d7306c1b21210545c625530e4f54847d8c4885eb4386aa4551d081ec9"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 29,
+      "sha256": "7d716af04725b4b653cb82984dad9fa441e39bcddaec1ca8c12a8f67517143af"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "bytes": 1152,
+      "sha256": "0693f7eaa6acbeb25a5fd45f9a56775a06020565b0e19776e8bb4fc9ec4824bd"
+    },
+    {
+      "path": "LICENSE-MANUSCRIPT",
+      "bytes": 1025,
+      "sha256": "6a1c9adc4691e462b3139cc55f54326bf11c7575cb103fa0360a95cf4c18d42a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3279,
+      "sha256": "af37b061ac1a38a6b0fae97e443928a3a78b15d6251e45d1dffb55ebf87715b9"
+    },
+    {
+      "path": "agent-paper.md",
+      "bytes": 23764,
+      "sha256": "ba62f716ba57679ebae114d182c87f672fb218f2f0b98625c2a33238e0522a39"
+    },
+    {
+      "path": "metadata.json",
+      "bytes": 3221,
+      "sha256": "39eab69a2547dfd1556c86720960e363bd5b52f9364db0fa3792d4569efb99d8"
+    },
+    {
+      "path": "paper.md",
+      "bytes": 23764,
+      "sha256": "ba62f716ba57679ebae114d182c87f672fb218f2f0b98625c2a33238e0522a39"
+    },
+    {
+      "path": "reproduction/README.md",
+      "bytes": 3585,
+      "sha256": "3e80ff8f9c82191917e8840b97079113897bd38b466b60681193daf5eb9957ef"
+    },
+    {
+      "path": "reproduction/adapter-checks.json",
+      "bytes": 26898,
+      "sha256": "5ad0cd9001026ed3699cc9dd75be9473c4ca3e376805df0213614b1873671572"
+    },
+    {
+      "path": "reproduction/agentpub-instructions.txt",
+      "bytes": 21503,
+      "sha256": "771252106a551f2d891033af42be14a827a54c86ef8d6274da8b58f62e4eb554"
+    },
+    {
+      "path": "reproduction/agentpub-paper-schema.json",
+      "bytes": 25485,
+      "sha256": "e62bc0d9369ae2a3b38161340887a7ef08c7736a46ac186f40ffe424b5370847"
+    },
+    {
+      "path": "reproduction/canonical-preservation-v1.0.0.json",
+      "bytes": 26898,
+      "sha256": "5ad0cd9001026ed3699cc9dd75be9473c4ca3e376805df0213614b1873671572"
+    },
+    {
+      "path": "reproduction/canonical/.gitattributes",
+      "bytes": 113,
+      "sha256": "0c051c89bafcea92295cd8d7e5896a66884f16f3437ca626c830ef9a3697b880"
+    },
+    {
+      "path": "reproduction/canonical/.gitignore",
+      "bytes": 217,
+      "sha256": "1c2fc10d70d79623f38357e120cf4a53e913bb90f1f27fd56bd94501d49f722c"
+    },
+    {
+      "path": "reproduction/canonical/COMPUTATIONAL_METHODS.md",
+      "bytes": 5799,
+      "sha256": "e271e32d0c5a30e774e35607241655969611c859bb7307d718947c7b476f0149"
+    },
+    {
+      "path": "reproduction/canonical/LICENSE-CODE",
+      "bytes": 1152,
+      "sha256": "0693f7eaa6acbeb25a5fd45f9a56775a06020565b0e19776e8bb4fc9ec4824bd"
+    },
+    {
+      "path": "reproduction/canonical/LICENSE-MANUSCRIPT",
+      "bytes": 1025,
+      "sha256": "6a1c9adc4691e462b3139cc55f54326bf11c7575cb103fa0360a95cf4c18d42a"
+    },
+    {
+      "path": "reproduction/canonical/README.md",
+      "bytes": 3461,
+      "sha256": "b6d271d2be90df475e1bd897db25ef95c0b762d5bcd0e9714cb0fbe0f5fa8fbe"
+    },
+    {
+      "path": "reproduction/canonical/REPRODUCIBILITY.md",
+      "bytes": 2844,
+      "sha256": "140d56513f05e4edf8f9a58e2dcd7e09ab0980cd80a52608be914f742f8f302d"
+    },
+    {
+      "path": "reproduction/canonical/SOURCE_CONCORDANCE.md",
+      "bytes": 11721,
+      "sha256": "7285869751216f62a5794dcac818c4693759ede24d7253c3c756d18f77264dc0"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-filter-review/check_filter_identities.py",
+      "bytes": 13825,
+      "sha256": "ee61c6d47de26759b79e17111b4f835540377d6a7071197f96a6c66ed04ac2db"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-filter-review/filter-and-momentum-review.md",
+      "bytes": 12315,
+      "sha256": "8b75d10cd24066be33dded407e72bfd619d7ac7c4366aba38d1018f7b430307e"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-filter-review/filter-identity-checks-original-run.json",
+      "bytes": 30855,
+      "sha256": "6cc5376033f372e0a9bf02a16288ca53e5ab467146beffe55d965f7b94705254"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-filter-review/filter-identity-checks.json",
+      "bytes": 30855,
+      "sha256": "6cc5376033f372e0a9bf02a16288ca53e5ab467146beffe55d965f7b94705254"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-filter-review/original-review-manifest.json",
+      "bytes": 1161,
+      "sha256": "c0f2204cc0bf23b7870f7279765f3e982dcad8926eb77199e98b94cc360d4931"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-filter-review/source-formula-locators.json",
+      "bytes": 4326,
+      "sha256": "8f1bf08c3049eac2d3838201d708f05ed8d3407947a6df93ade9ba79d5f51cca"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-filter-review/standalone-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-filter-review/standalone-stdout.txt",
+      "bytes": 348,
+      "sha256": "d098fcca718288d67843d976e3764507496c90cc2185b2302f6d8e6f4d03a0b1"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-moment-review/DENSITY_CONVENTION_ADDENDUM.md",
+      "bytes": 2047,
+      "sha256": "3adbb0aa6a89c51e295af0ad7abbcf54f72b7cae3922566ff7a50c0c222e35e9"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-moment-review/independent-review-original.md",
+      "bytes": 13261,
+      "sha256": "cae7eae01660e0bb9b0026a0b6880ee61837286aade2f33102365892995d8af5"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-moment-review/independent-review.md",
+      "bytes": 13964,
+      "sha256": "ff4a905da63860616f82c3ef78fbf947b4b1441e6c585e5332b86e61c6f192aa"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-moment-review/source-identity-checks-original-run.json",
+      "bytes": 9771,
+      "sha256": "5dec3ded3bf6d6e9b83c69aeb483aa476373d7ea0712862b64e76cf940013f09"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-moment-review/source-identity-checks.json",
+      "bytes": 9771,
+      "sha256": "5dec3ded3bf6d6e9b83c69aeb483aa476373d7ea0712862b64e76cf940013f09"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-moment-review/standalone-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-moment-review/standalone-stdout.txt",
+      "bytes": 2485,
+      "sha256": "9a0c91f5d28e3b87a270261586f70809d470f06f5e0c0b7089db4bda64cdc385"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-moment-review/verify_source_identities.py",
+      "bytes": 11819,
+      "sha256": "813e6149c24a4a0984a54f4e5879d09c963cfe3d08ccf464be7b7744371f0212"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-review-copy-verification-initial.json",
+      "bytes": 7630,
+      "sha256": "068a4f0f4b09ea539e68938c5dbcd1c37db6c78efcba5e1e16d9508846e021ed"
+    },
+    {
+      "path": "reproduction/canonical/audit/independent-review-copy-verification.json",
+      "bytes": 8907,
+      "sha256": "cfc650802c76fb3ff6f68a498bb7646ca77b59c87769907edae79b55810aadf6"
+    },
+    {
+      "path": "reproduction/canonical/audit/primary-reference-checks.json",
+      "bytes": 4669,
+      "sha256": "345bd32ecac9bf8eb5058fa26caf60fda7f5f4a667bc5aac3a42e67002ec688c"
+    },
+    {
+      "path": "reproduction/canonical/audit/producer-independent-review.json",
+      "bytes": 6828,
+      "sha256": "bb0d15f4532a58b71bca5b254c7446cbf6a4821b5ce47eab23f6f89d2ec88b01"
+    },
+    {
+      "path": "reproduction/canonical/data/computational-artifact-manifest.json",
+      "bytes": 7557,
+      "sha256": "230e709f63a80ff3391960737ee552e983bf4605690a843c9351604504d38349"
+    },
+    {
+      "path": "reproduction/canonical/data/moment-families.csv",
+      "bytes": 18001,
+      "sha256": "025b4ee9ea1ff4f5ca0535b3852f7a172b5e524cb04d05124eabd1885cc25254"
+    },
+    {
+      "path": "reproduction/canonical/data/producer-reproducibility.json",
+      "bytes": 2306,
+      "sha256": "097350cb06b7155ebab1b8dcb5922b61d595168b1db078e149db1cce29251ef3"
+    },
+    {
+      "path": "reproduction/canonical/data/producer-results.json",
+      "bytes": 3669,
+      "sha256": "d95c3890ad4f7355e10923cf69db8ea38e3831d36ec198a511227a4b5e83f5f4"
+    },
+    {
+      "path": "reproduction/canonical/data/producer-source-locators.json",
+      "bytes": 1588,
+      "sha256": "f79e3b057204dd21b388e734514184c04c889b73a76bf81c68d28784ebde617f"
+    },
+    {
+      "path": "reproduction/canonical/data/sg-covariances.csv",
+      "bytes": 1720,
+      "sha256": "ef65d03c4ea40d20c42c7ad74024407e0c1318fa474d1410de63429a2f8b97bc"
+    },
+    {
+      "path": "reproduction/canonical/data/sg-kernels.csv",
+      "bytes": 801,
+      "sha256": "d5d9b99b7655839e2094ea4409d4bbda0ee9221d071bb0453e850f6772c5044f"
+    },
+    {
+      "path": "reproduction/canonical/data/sg-temporal-controls.csv",
+      "bytes": 1542,
+      "sha256": "ee63421e3df51f0edc5ec4d197151a1b85ac816ae0efa5854df7588d4effeaae"
+    },
+    {
+      "path": "reproduction/canonical/experiments/build_paper.py",
+      "bytes": 1907,
+      "sha256": "46e451218e64572d1c3344374c1e2df670d51c40b8232ea08653651ba13c3506"
+    },
+    {
+      "path": "reproduction/canonical/figures/filter-covariance.png",
+      "bytes": 128729,
+      "sha256": "d60e0bc6395c66530953ed53475823f20ed8347fb2d422eb40485452edacf79f"
+    },
+    {
+      "path": "reproduction/canonical/figures/moment-compatibility.png",
+      "bytes": 152312,
+      "sha256": "5c4579098c8cbc74797eb271b880db39d800e28e3dde43683fe2242a648eb301"
+    },
+    {
+      "path": "reproduction/canonical/paper/latex/body.tex",
+      "bytes": 24032,
+      "sha256": "6b2e68202a5a0a094c74f5abced716246c90d88d7d096c1b05e0011c7a6fe49f"
+    },
+    {
+      "path": "reproduction/canonical/paper/latex/images/filter-covariance.png",
+      "bytes": 128729,
+      "sha256": "d60e0bc6395c66530953ed53475823f20ed8347fb2d422eb40485452edacf79f"
+    },
+    {
+      "path": "reproduction/canonical/paper/latex/images/moment-compatibility.png",
+      "bytes": 152312,
+      "sha256": "5c4579098c8cbc74797eb271b880db39d800e28e3dde43683fe2242a648eb301"
+    },
+    {
+      "path": "reproduction/canonical/paper/latex/main.tex",
+      "bytes": 884,
+      "sha256": "6c8f0dae5e83b2ce8adce8f0da6dbfe85cf3faf57ee60ff522383b9ca8e67788"
+    },
+    {
+      "path": "reproduction/canonical/paper/main.pdf",
+      "bytes": 355428,
+      "sha256": "ad44e02676294d9f649e3e9cd98f2f595840d95b5d79721f64db787b3ec16e4b"
+    },
+    {
+      "path": "reproduction/canonical/paper/manuscript.md",
+      "bytes": 23117,
+      "sha256": "16c43578caf6c0ff410fe18b5f7e6f433bcaacfb5d6333862340fb1b619f9a3a"
+    },
+    {
+      "path": "reproduction/canonical/reproduction/run_audit.py",
+      "bytes": 19203,
+      "sha256": "f12ac9b9e6da0cc8d8b5d26d921e329d386a739d996dc8662c407ca1e22e2f20"
+    },
+    {
+      "path": "reproduction/canonical/requirements-verifiers.txt",
+      "bytes": 27,
+      "sha256": "b39db1ccf989f64ef9f9c037e49567930984dc3ae56cf7f0fb869c069b36a0e0"
+    },
+    {
+      "path": "reproduction/canonical/requirements.txt",
+      "bytes": 32,
+      "sha256": "adc7fa5a4dbaa7335c32c1e7d10cffae5c96f67ba2f5f22c8453c1bc11cf8e0a"
+    },
+    {
+      "path": "reproduction/canonical/source-provenance.json",
+      "bytes": 35236,
+      "sha256": "ec6e177c8647fb249f45a77dbb4f10d700211248660005818db15f7aaff4fb41"
+    },
+    {
+      "path": "reproduction/canonical/submissions/metadata.json",
+      "bytes": 2217,
+      "sha256": "8c756be652be1e7c2641f0e7821d5dba695a258d7c4a7411b86196edbb283c49"
+    },
+    {
+      "path": "reproduction/independent-preservation-checks.json",
+      "bytes": 14959,
+      "sha256": "c34ce1429b5ed24350b419655fd6d927d10dc77de7df7b2917b72ca175bd618d"
+    },
+    {
+      "path": "reproduction/nonstoring-preflight.json",
+      "bytes": 1199,
+      "sha256": "21ad48f296aab035cbc2dc00a2b3e748abd4e1090ccf701612a90292a77309d6"
+    },
+    {
+      "path": "reproduction/pinned-inputs.json",
+      "bytes": 20120,
+      "sha256": "75e523a729529728068fbd774793b493f634ea063072074d4987f79471e89d46"
+    },
+    {
+      "path": "reproduction/prepare_packages.py",
+      "bytes": 37695,
+      "sha256": "83f52b37ccc34d01b3666e2a56ed3a9bb164367eb031470529091758e52219e4"
+    },
+    {
+      "path": "reproduction/submission-context.json",
+      "bytes": 890,
+      "sha256": "3344e04e34c6b50e8136a5d7546b1dd3d0abeb016c3e972124e0a1e766a82b6d"
+    },
+    {
+      "path": "reproduction/venue-format-verification.json",
+      "bytes": 735,
+      "sha256": "8cbf8028045dac27c769f3248f7371e00f29eb28c9b7dde4a01b362bb2ba86ad"
+    }
+  ]
+}
