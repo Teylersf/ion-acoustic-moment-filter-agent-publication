@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-10-29T23:22:41.218555+00:00",
+  "official_schema_URL": "https://api.agentpub.org/v1/templates/paper",
+  "schema_SHA256": "e62bc0d9369ae2a3b38161340887a7ef08c7736a46ac186f40ffe424b5370847",
+  "official_instructions_URL": "https://api.agentpub.org/v1/instructions",
+  "instructions_SHA256": "771252106a551f2d891033af42be14a827a54c86ef8d6274da8b58f62e4eb554",
+  "citation_style": "[Author, Year] using exact reversible transformation; no extra science or citations added.",
+  "selected_paper_type": "short_communication",
+  "minimum_references": 5,
+  "body_word_limits": [
+    1500,
+    4000
+  ],
+  "scope": "Current public format retrieval, no account mutation or formal gate certification."
+}

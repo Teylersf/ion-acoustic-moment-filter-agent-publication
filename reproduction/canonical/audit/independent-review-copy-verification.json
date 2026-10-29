@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-29T21:55:48.684947+00:00",
+  "scope": "Exact original program/JSON/note copies and actual standalone runs, followed by explicit normalized-density prose clarification. No source paper or original scratch record was modified.",
+  "copy_records": [
+    {
+      "original_scratch_artifact": "independent-filter-review/check_filter_identities.py",
+      "copied_path": "audit/independent-filter-review/check_filter_identities.py",
+      "original": {
+        "bytes": 13825,
+        "sha256": "ee61c6d47de26759b79e17111b4f835540377d6a7071197f96a6c66ed04ac2db"
+      },
+      "copy": {
+        "bytes": 13825,
+        "sha256": "ee61c6d47de26759b79e17111b4f835540377d6a7071197f96a6c66ed04ac2db"
+      },
+      "adaptations": [],
+      "byte_identical": true
+    },
+    {
+      "original_scratch_artifact": "independent-filter-review/filter-and-momentum-review.md",
+      "copied_path": "audit/independent-filter-review/filter-and-momentum-review.md",
+      "original": {
+        "bytes": 12315,
+        "sha256": "8b75d10cd24066be33dded407e72bfd619d7ac7c4366aba38d1018f7b430307e"
+      },
+      "copy": {
+        "bytes": 12315,
+        "sha256": "8b75d10cd24066be33dded407e72bfd619d7ac7c4366aba38d1018f7b430307e"
+      },
+      "adaptations": [],
+      "byte_identical": true
+    },
+    {
+      "original_scratch_artifact": "independent-filter-review/filter-identity-checks.json",
+      "copied_path": "audit/independent-filter-review/filter-identity-checks-original-run.json",
+      "original": {
+        "bytes": 30855,
+        "sha256": "6cc5376033f372e0a9bf02a16288ca53e5ab467146beffe55d965f7b94705254"
+      },
+      "copy": {
+        "bytes": 30855,
+        "sha256": "6cc5376033f372e0a9bf02a16288ca53e5ab467146beffe55d965f7b94705254"
+      },
+      "adaptations": [],
+      "byte_identical": true
+    },
+    {
+      "original_scratch_artifact": "independent-filter-review/source-formula-locators.json",
+      "copied_path": "audit/independent-filter-review/source-formula-locators.json",
+      "original": {
+        "bytes": 4326,
+        "sha256": "8f1bf08c3049eac2d3838201d708f05ed8d3407947a6df93ade9ba79d5f51cca"
+      },
+      "copy": {
+        "bytes": 4326,
+        "sha256": "8f1bf08c3049eac2d3838201d708f05ed8d3407947a6df93ade9ba79d5f51cca"
+      },
+      "adaptations": [],
+      "byte_identical": true
+    },
+    {
+      "original_scratch_artifact": "independent-filter-review/review-manifest.json",
+      "copied_path": "audit/independent-filter-review/original-review-manifest.json",
+      "original": {
+        "bytes": 1161,
+        "sha256": "c0f2204cc0bf23b7870f7279765f3e982dcad8926eb77199e98b94cc360d4931"
+      },
+      "copy": {
+        "bytes": 1161,
+        "sha256": "c0f2204cc0bf23b7870f7279765f3e982dcad8926eb77199e98b94cc360d4931"
+      },
+      "adaptations": [],
+      "byte_identical": true
+    },
+    {
+      "original_scratch_artifact": "independent-science-review/verify_source_identities.py",
+      "copied_path": "audit/independent-moment-review/verify_source_identities.py",
+      "original": {
+        "bytes": 11819,
+        "sha256": "813e6149c24a4a0984a54f4e5879d09c963cfe3d08ccf464be7b7744371f0212"
+      },
+      "copy": {
+        "bytes": 11819,
+        "sha256": "813e6149c24a4a0984a54f4e5879d09c963cfe3d08ccf464be7b7744371f0212"
+      },
+      "adaptations": [],
+      "byte_identical": true
+    },
+    {
+      "original_scratch_artifact": "independent-science-review/independent-review.md",
+      "copied_path": "audit/independent-moment-review/independent-review-original.md",
+      "original": {
+        "bytes": 13261,
+        "sha256": "cae7eae01660e0bb9b0026a0b6880ee61837286aade2f33102365892995d8af5"
+      },
+      "copy": {
+        "bytes": 13261,
+        "sha256": "cae7eae01660e0bb9b0026a0b6880ee61837286aade2f33102365892995d8af5"
+      },
+      "adaptations": [],
+      "byte_identical": true
+    },
+    {
+      "original_scratch_artifact": "independent-science-review/source-identity-checks.json",
+      "copied_path": "audit/independent-moment-review/source-identity-checks-original-run.json",
+      "original": {
+        "bytes": 9771,
+        "sha256": "5dec3ded3bf6d6e9b83c69aeb483aa476373d7ea0712862b64e76cf940013f09"
+      },
+      "copy": {
+        "bytes": 9771,
+        "sha256": "5dec3ded3bf6d6e9b83c69aeb483aa476373d7ea0712862b64e76cf940013f09"
+      },
+      "adaptations": [],
+      "byte_identical": true
+    }
+  ],
+  "runs": [
+    {
+      "component": "independent-filter-review",
+      "command": "C:/Python313/python.exe audit/independent-filter-review/check_filter_identities.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.160608,
+      "actual_environment": {
+        "python": "3.13.7",
+        "implementation": "CPython",
+        "dependencies": "Python standard library; exact fractions"
+      },
+      "result_path": "audit/independent-filter-review/filter-identity-checks.json",
+      "actual_new_run_result": {
+        "bytes": 30855,
+        "sha256": "6cc5376033f372e0a9bf02a16288ca53e5ab467146beffe55d965f7b94705254"
+      },
+      "original_scratch_result": {
+        "bytes": 30855,
+        "sha256": "6cc5376033f372e0a9bf02a16288ca53e5ab467146beffe55d965f7b94705254"
+      },
+      "result_byte_identical_to_original": true,
+      "parsed_result_exactly_equal_to_original": true,
+      "producer_self_hash_matches_copied_script": true,
+      "stdout": {
+        "bytes": 348,
+        "sha256": "d098fcca718288d67843d976e3764507496c90cc2185b2302f6d8e6f4d03a0b1"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "component": "independent-moment-review",
+      "command": "C:/Python313/python.exe audit/independent-moment-review/verify_source_identities.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.876231,
+      "actual_environment": {
+        "python": "3.13.7",
+        "numpy": "2.2.1",
+        "scipy": "1.17.1"
+      },
+      "result_path": "audit/independent-moment-review/source-identity-checks.json",
+      "actual_new_run_result": {
+        "bytes": 9771,
+        "sha256": "5dec3ded3bf6d6e9b83c69aeb483aa476373d7ea0712862b64e76cf940013f09"
+      },
+      "original_scratch_result": {
+        "bytes": 9771,
+        "sha256": "5dec3ded3bf6d6e9b83c69aeb483aa476373d7ea0712862b64e76cf940013f09"
+      },
+      "result_byte_identical_to_original": true,
+      "parsed_result_exactly_equal_to_original": true,
+      "producer_self_hash_matches_copied_script": true,
+      "stdout": {
+        "bytes": 2485,
+        "sha256": "9a0c91f5d28e3b87a270261586f70809d470f06f5e0c0b7089db4bda64cdc385"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "original_scratch_files_unchanged": true,
+  "path_adaptations_required": false,
+  "unmodified_original_JSON_receipts_retained": true,
+  "old_receipt_embedded_producer_hashes_not_rewritten": true,
+  "runtime_source_PDF_dependencies": false,
+  "external_mutations": false,
+  "scope_controls": {
+    "literal_pointwise_filter_witness_is_conditional": true,
+    "window_centered_covariance_alternative_retained": true,
+    "T_and_I_full_product_positive_controls_retained": true,
+    "continuity_zero_divisor_subsystem_witnesses_only": true,
+    "Appendix_E_mass_factor_error_candidate_withdrawn": true,
+    "no_source_numerical_values_reconstructed": true
+  },
+  "original_copy_checkpoint": {
+    "bytes": 7630,
+    "sha256": "068a4f0f4b09ea539e68938c5dbcd1c37db6c78efcba5e1e16d9508846e021ed"
+  },
+  "note_only_clarification": {
+    "original_note_path": "audit/independent-moment-review/independent-review-original.md",
+    "original_note": {
+      "bytes": 13261,
+      "sha256": "cae7eae01660e0bb9b0026a0b6880ee61837286aade2f33102365892995d8af5"
+    },
+    "corrected_note_path": "audit/independent-moment-review/independent-review.md",
+    "corrected_note": {
+      "bytes": 13964,
+      "sha256": "ff4a905da63860616f82c3ef78fbf947b4b1441e6c585e5332b86e61c6f192aa"
+    },
+    "addendum_path": "audit/independent-moment-review/DENSITY_CONVENTION_ADDENDUM.md",
+    "addendum": {
+      "bytes": 2047,
+      "sha256": "3adbb0aa6a89c51e295af0ad7abbcf54f72b7cae3922566ff7a50c0c222e35e9"
+    },
+    "reason": "Literal source B5c/B5d density prefactors do not justify silently claiming the earlier arbitrary-density identity. Retained exact elimination and existing witnesses are restricted to normalized n=m=e=1. B6c still divides by the continuity-imposed zero divergence.",
+    "programs_or_run_results_changed": false,
+    "original_scratch_note_changed": false
+  }
+}

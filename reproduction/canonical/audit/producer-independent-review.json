@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T22:02:31.874946+00:00",
+  "study": "ion-acoustic-moment-filter-audit",
+  "status": "pass",
+  "all_checks_passed": true,
+  "scope": "Read-only producer/methods/output review plus independent exact rational recalculation from CSV; no producer import, no original PIC execution/data recovery, no full steady kinetic state.",
+  "inputs": [
+    {
+      "path": "reproduction/run_audit.py",
+      "bytes": 19203,
+      "sha256": "f12ac9b9e6da0cc8d8b5d26d921e329d386a739d996dc8662c407ca1e22e2f20"
+    },
+    {
+      "path": "COMPUTATIONAL_METHODS.md",
+      "bytes": 5799,
+      "sha256": "e271e32d0c5a30e774e35607241655969611c859bb7307d718947c7b476f0149"
+    },
+    {
+      "path": "data/producer-results.json",
+      "bytes": 3669,
+      "sha256": "d95c3890ad4f7355e10923cf69db8ea38e3831d36ec198a511227a4b5e83f5f4"
+    },
+    {
+      "path": "data/producer-source-locators.json",
+      "bytes": 1588,
+      "sha256": "f79e3b057204dd21b388e734514184c04c889b73a76bf81c68d28784ebde617f"
+    },
+    {
+      "path": "data/producer-reproducibility.json",
+      "bytes": 2306,
+      "sha256": "097350cb06b7155ebab1b8dcb5922b61d595168b1db078e149db1cce29251ef3"
+    },
+    {
+      "path": "data/sg-kernels.csv",
+      "bytes": 801,
+      "sha256": "d5d9b99b7655839e2094ea4409d4bbda0ee9221d071bb0453e850f6772c5044f"
+    },
+    {
+      "path": "data/sg-covariances.csv",
+      "bytes": 1720,
+      "sha256": "ef65d03c4ea40d20c42c7ad74024407e0c1318fa474d1410de63429a2f8b97bc"
+    },
+    {
+      "path": "data/sg-temporal-controls.csv",
+      "bytes": 1542,
+      "sha256": "ee63421e3df51f0edc5ec4d197151a1b85ac816ae0efa5854df7588d4effeaae"
+    },
+    {
+      "path": "data/moment-families.csv",
+      "bytes": 18001,
+      "sha256": "025b4ee9ea1ff4f5ca0535b3852f7a172b5e524cb04d05124eabd1885cc25254"
+    },
+    {
+      "path": "figures/filter-covariance.png",
+      "bytes": 128729,
+      "sha256": "d60e0bc6395c66530953ed53475823f20ed8347fb2d422eb40485452edacf79f"
+    },
+    {
+      "path": "figures/moment-compatibility.png",
+      "bytes": 152312,
+      "sha256": "5c4579098c8cbc74797eb271b880db39d800e28e3dde43683fe2242a648eb301"
+    }
+  ],
+  "independent_method": {
+    "imports_producer": false,
+    "arithmetic": "fractions.Fraction",
+    "SG_weights": "Closed central symmetric degree2/3 formula (S4-S2*r\u00b2)/(N*S4-S2\u00b2); degree4 five-point interpolation gives the central identity kernel. This does not use producer Gauss-Jordan implementation.",
+    "covariances": "Independent polynomial fourth-moment and alternating-mode response formulas, including Leonard/cross terms and signed D2 left-minus-right residuals.",
+    "moments": "Direct substitution into the literal normalized B5c/d equations for every CSV row, with separate continuity residual and ratio checks."
+  },
+  "counts": {
+    "kernels": 4,
+    "kernel_weight_rows": 26,
+    "covariance_cases": 20,
+    "signed_charge_temporal_cases": 40,
+    "moment_states": 273,
+    "finite_nonzero_divergence_states": 266,
+    "zero_divergence_subsystem_witnesses": 7
+  },
+  "algebra_checks": {
+    "all_kernel_weights_and_polynomial_reproduction_exact": true,
+    "all_covariance_and_decomposition_columns_exact": true,
+    "all_window_centered_products_equal_full_covariance": true,
+    "all40_temporal_charge_and_budget_signs_exact": true,
+    "all273_normalized_B5_equations_exact": true,
+    "all266_finite_d_continuity_violations_explicit": true,
+    "all7_d0_ratios_undefined_and_temperatures_distinct": true,
+    "constant_fields_density_identity_kernel_and_ensemble_positive_controls_pass": true,
+    "all7_declared_artifact_hashes_and_sizes_match": true
+  },
+  "selected_exact_values": [
+    {
+      "field_case": "quadratic",
+      "N": "2",
+      "full_covariance": "-72/35",
+      "pointwise_residual_product": "0",
+      "window_centered_product": "-72/35",
+      "missing_K": "-72/35",
+      "D2_electric_left_minus_right_pointwise": "-36/35",
+      "D2_temporal_left_minus_right_pointwise_q_positive": "36/35",
+      "D2_temporal_left_minus_right_pointwise_q_negative": "-36/35"
+    },
+    {
+      "field_case": "weak_quadratic",
+      "N": "2",
+      "full_covariance": "-18/875",
+      "pointwise_residual_product": "0",
+      "window_centered_product": "-18/875",
+      "missing_K": "-18/875",
+      "D2_electric_left_minus_right_pointwise": "-9/875",
+      "D2_temporal_left_minus_right_pointwise_q_positive": "9/875",
+      "D2_temporal_left_minus_right_pointwise_q_negative": "-9/875"
+    },
+    {
+      "field_case": "alternating",
+      "N": "92/35",
+      "full_covariance": "1056/1225",
+      "pointwise_residual_product": "2304/1225",
+      "window_centered_product": "1056/1225",
+      "missing_K": "-1248/1225",
+      "D2_electric_left_minus_right_pointwise": "-312/805",
+      "D2_temporal_left_minus_right_pointwise_q_positive": "312/805",
+      "D2_temporal_left_minus_right_pointwise_q_negative": "-312/805"
+    }
+  ],
+  "source_definition_readback": {
+    "journal_DOI": "10.1017/S002237782510113X",
+    "definitions": [
+      "B5c/B5d/B6c p20",
+      "B13 p21",
+      "4.2/4.5 pp14-15",
+      "D2 p23"
+    ],
+    "normalized_witness_restriction": "All n=m=e=1; no general-n elimination of ambiguous literal source prefactors asserted.",
+    "drag_no_extra_charge_factor": true,
+    "temporal_charge_sign_and_denominator_outside_derivative_preserved": true,
+    "full_product_T_and_I_not_falsely_replaced": true
+  },
+  "figure_visual_QA": {
+    "figures_inspected": [
+      "figures/filter-covariance.png",
+      "figures/moment-compatibility.png"
+    ],
+    "status": "pass",
+    "findings": [
+      "Covariance fractions and bars match independent values; negative weighted covariances are labeled synthetic.",
+      "Moment x axis is positive d decreasing toward zero, not an evaluated d0 logarithmic point; signed symlog heat-flux axis and fixed1,4,7 temperatures are consistent.",
+      "Both figures are legible with no clipping, overlap or source-data implication.",
+      "Finite-d families are explicitly labeled not full steady solutions."
+    ]
+  },
+  "scope_and_documentation_checks": {
+    "status": "pass",
+    "actual_source_filter_recovered": false,
+    "pointwise_residual_claim_is_conditional": true,
+    "window_centered_alternative_W_equals_C_credited": true,
+    "no_revised_anomaly_magnitude_or_reconnection_rate_claim": true,
+    "no_temperature_variance_or_heating_refutation_claim": true,
+    "finite_d_not_claimed_steady_continuity_solution": true,
+    "Appendix_E_error_candidate_explicitly_withdrawn": true,
+    "negative_SG_weights_not_interpreted_as_probability_variance": true
+  },
+  "issues": [],
+  "producer_executed_for_this_review": false,
+  "all_files_unchanged_except_this_review_receipt": true,
+  "independent_human_peer_review_claimed": false
+}

@@ -1,0 +1,28 @@
+{
+  "source": {
+    "title": "Role of ion acoustic instability in magnetic reconnection",
+    "authors": [
+      "D. Li",
+      "Z. Liu",
+      "N. F. Loureiro"
+    ],
+    "journal": "Journal of Plasma Physics 92(1), E20 (2026)",
+    "doi": "10.1017/S002237782510113X",
+    "arxiv": "2505.08983v1",
+    "journal_PDF_SHA256": "0ad1cbf795a58958b6889bebdff355fd463fb343aadef84e12e9261e100d7fa0",
+    "hash_semantics": "Previously verified source provenance; this offline producer does not read or rehash the source PDF."
+  },
+  "source_formulas_not_reconstructed_code": true,
+  "journal_locators": {
+    "B5c": "p.20: raw zz moment at the X-point; literal normalized n=m=e=1 subsystem used here",
+    "B5d": "p.20: z momentum at the X-point",
+    "B6c": "p.20: temperature ratio divides by d=partial_x u_ix+partial_y u_iy",
+    "B10b": "p.20: quantitative zero-heat-flux temperature estimate that cites B6c",
+    "B13": "p.21: steady uniform-density continuity imposes divergence zero",
+    "4.2_and_4.5": "pp.14\u201315: anomalous drag and temporal flow terms",
+    "D2": "p.23: normalized averaged momentum identity and finite spatial SG description"
+  },
+  "normalization_limit": "B5c/d controls fix n=m=e=1. No general-density cancellation is asserted for the literal printed prefactors.",
+  "filter_limit": "All windows, degrees and fields are synthetic. The actual source kernel, degree, edge handling and residual convention remain unresolved.",
+  "excluded_claim": "Appendix E error candidate was withdrawn and is not an error finding in this package."
+}

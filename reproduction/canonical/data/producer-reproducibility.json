@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "producer_sha256": "f12ac9b9e6da0cc8d8b5d26d921e329d386a739d996dc8662c407ca1e22e2f20",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.2"
+  },
+  "clean_output_reproduction": {
+    "files_compared": 8,
+    "all_bytes_identical": true,
+    "files": [
+      {
+        "path": "data/sg-kernels.csv",
+        "sha256": "d5d9b99b7655839e2094ea4409d4bbda0ee9221d071bb0453e850f6772c5044f"
+      },
+      {
+        "path": "data/sg-covariances.csv",
+        "sha256": "ef65d03c4ea40d20c42c7ad74024407e0c1318fa474d1410de63429a2f8b97bc"
+      },
+      {
+        "path": "data/sg-temporal-controls.csv",
+        "sha256": "ee63421e3df51f0edc5ec4d197151a1b85ac816ae0efa5854df7588d4effeaae"
+      },
+      {
+        "path": "data/moment-families.csv",
+        "sha256": "025b4ee9ea1ff4f5ca0535b3852f7a172b5e524cb04d05124eabd1885cc25254"
+      },
+      {
+        "path": "data/producer-source-locators.json",
+        "sha256": "f79e3b057204dd21b388e734514184c04c889b73a76bf81c68d28784ebde617f"
+      },
+      {
+        "path": "figures/filter-covariance.png",
+        "sha256": "d60e0bc6395c66530953ed53475823f20ed8347fb2d422eb40485452edacf79f"
+      },
+      {
+        "path": "figures/moment-compatibility.png",
+        "sha256": "5c4579098c8cbc74797eb271b880db39d800e28e3dde43683fe2242a648eb301"
+      },
+      {
+        "path": "data/producer-results.json",
+        "sha256": "d95c3890ad4f7355e10923cf69db8ea38e3831d36ec198a511227a4b5e83f5f4"
+      }
+    ]
+  },
+  "optimized_mode_rejected_before_output": true,
+  "canonical_output_hashes_unchanged_by_guard_test": true,
+  "execution_summary": {
+    "status": "pass",
+    "SG_kernels": 4,
+    "SG_cases": 20,
+    "temporal_charge_controls": 40,
+    "moment_states": 273,
+    "d0_witnesses": 7,
+    "figures": 2,
+    "source_operator_recovered": false
+  },
+  "scope": "Producer rerun in a new output directory, with exact byte comparison in the recorded environment; no independent program imported, no PIC/kinetic/steady solution reconstruction, no Git or network action.",
+  "plot_inspection": "Both original PNGs visually inspected; labels/fractions/window-centered control and finite-d disclaimer are readable."
+}

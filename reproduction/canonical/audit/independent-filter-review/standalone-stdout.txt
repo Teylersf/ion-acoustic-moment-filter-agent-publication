@@ -1,0 +1,1 @@
+{"status": "pass", "synthetic_SG_filters": 4, "isolated_V_charge_controls": 8, "nonzero_cross_witnesses": 1, "constant_controls": 2, "Reynolds_ensemble_controls": 1, "identity_controls": 1, "full_product_controls": 2, "interior_and_edge_derivative_controls": 2, "report_sha256": "6cc5376033f372e0a9bf02a16288ca53e5ab467146beffe55d965f7b94705254"}

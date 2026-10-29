@@ -1,0 +1,64 @@
+{
+  "source": "Li, Liu and Loureiro, Journal of Plasma Physics 92(1), E20 (2026), DOI 10.1017/S002237782510113X",
+  "source_license": "CC BY 4.0",
+  "journal_PDF_SHA256": "0ad1cbf795a58958b6889bebdff355fd463fb343aadef84e12e9261e100d7fa0",
+  "official_article_url": "https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/role-of-ion-acoustic-instability-in-magnetic-reconnection/F7B49872B868515590E66A9DE494DB62",
+  "status": "Source formula transcriptions, not new equations or correctness assertions.",
+  "formulas": [
+    {
+      "id": "disp12",
+      "label": "(4.2)",
+      "tex": "\\begin{align} \\boldsymbol{D}_{\\alpha } \\equiv - \\frac {\\langle \\delta n_{\\alpha } \\delta \\boldsymbol{E} \\rangle }{\\langle n_{\\alpha } \\rangle }, \\end{align}",
+      "journal_printed_and_PDF_page": 14
+    },
+    {
+      "id": "disp13",
+      "label": "(4.3)",
+      "tex": "\\begin{align} \\boldsymbol{T}_{\\alpha } \\equiv - \\frac {\\langle n_{\\alpha } (\\boldsymbol{u}_{\\alpha } \\times \\boldsymbol{B}) \\rangle }{\\langle n_{\\alpha } \\rangle c} + \\frac {\\langle \\boldsymbol{u}_{\\alpha } \\rangle \\times \\langle \\boldsymbol{B} \\rangle }{c}, \\end{align}",
+      "journal_printed_and_PDF_page": 14
+    },
+    {
+      "id": "disp14",
+      "label": "(4.4)",
+      "tex": "\\begin{align} \\boldsymbol{I}_{\\alpha } \\equiv \\frac {m_{\\alpha }}{q_{\\alpha } \\langle n_{\\alpha } \\rangle } \\big [ \\langle \\boldsymbol{\\nabla }\\boldsymbol{\\cdot }(\\boldsymbol{u}_{\\alpha } \\boldsymbol{u}_{\\alpha } n_{\\alpha }) \\rangle - \\boldsymbol{\\nabla }\\boldsymbol{\\cdot }(\\langle \\boldsymbol{u}_{\\alpha } \\rangle \\langle \\boldsymbol{u}_{\\alpha } \\rangle \\langle n_{\\alpha } \\rangle ) \\big ], \\end{align}",
+      "journal_printed_and_PDF_page": 14
+    },
+    {
+      "id": "disp15",
+      "label": "(4.5)",
+      "tex": "\\begin{align} \\boldsymbol{V}_{\\alpha } \\equiv \\frac {m_{\\alpha }}{q_{\\alpha } \\langle n_{\\alpha } \\rangle } \\frac {\\partial }{\\partial t} \\langle \\delta n_{\\alpha } \\delta \\boldsymbol{u}_{\\alpha } \\rangle , \\end{align}",
+      "journal_printed_and_PDF_page": 15
+    },
+    {
+      "id": "disp50",
+      "label": "(D1)",
+      "tex": "\\begin{eqnarray} m_{\\alpha } \\frac {\\partial }{\\partial t} (n_{\\alpha } \\boldsymbol{u}_{\\alpha }) + m_{\\alpha } \\boldsymbol{\\nabla }\\boldsymbol{\\cdot }(\\boldsymbol{u}_{\\alpha } \\boldsymbol{u}_{\\alpha } n_{\\alpha }) = q_{\\alpha } n_{\\alpha } \\bigg ( \\boldsymbol{E} + \\frac {\\boldsymbol{u}_{\\alpha } \\times \\boldsymbol{B}}{c} \\bigg ) - \\boldsymbol{\\nabla }\\boldsymbol{\\cdot }\\boldsymbol{P}_{\\alpha }, \\end{eqnarray}",
+      "journal_printed_and_PDF_page": 23
+    },
+    {
+      "id": "disp51",
+      "label": "(D2)",
+      "tex": "\\begin{eqnarray} \\frac {m_{\\alpha }}{q_{\\alpha } \\langle n_{\\alpha } \\rangle } \\bigg [ \\frac {\\partial }{\\partial t} (\\langle n_{\\alpha } \\rangle \\langle \\boldsymbol{u}_{\\alpha } \\rangle ) + \\boldsymbol{\\nabla }\\boldsymbol{\\cdot }(\\langle \\boldsymbol{u}_{\\alpha } \\rangle \\langle \\boldsymbol{u}_{\\alpha } \\rangle \\langle n_{\\alpha } \\rangle ) \\bigg ] + \\boldsymbol{V}_{\\alpha } + \\boldsymbol{I}_{\\alpha } \\nonumber \\\\ = \\langle \\boldsymbol{E} \\rangle - \\boldsymbol{D}_{\\alpha } + \\frac {\\langle \\boldsymbol{u}_{\\alpha } \\rangle \\times \\langle \\boldsymbol{B} \\rangle }{c} - \\boldsymbol{T}_{\\alpha } - \\frac {\\langle \\boldsymbol{\\nabla }\\boldsymbol{\\cdot }\\boldsymbol{P}_{\\alpha } \\rangle }{q_{\\alpha } \\langle n_{\\alpha } \\rangle }, \\end{eqnarray}",
+      "journal_printed_and_PDF_page": 23
+    }
+  ],
+  "source_procedure_locators": [
+    "Section 4.4.2, pp.14-15",
+    "Figure 10, p.15, kmax approximately 0.22 de0^-1",
+    "Appendix D, pp.23-24"
+  ],
+  "unprovided_details": [
+    "polynomial order",
+    "exact point-count window",
+    "two-dimensional operator construction",
+    "edge mode",
+    "time differencing",
+    "underlying diagnostics",
+    "pointwise-field versus window-centered residual implementation"
+  ],
+  "figure_visual_evidence": {
+    "file": "vor-filter-detail-15.png",
+    "bytes": 313152,
+    "sha256": "0f86eeb56846d4400edc5f5f43765feff8ffb3d69886c0c32c9a2cc2c2dd387d"
+  }
+}

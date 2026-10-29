@@ -1,0 +1,19 @@
+{
+  "title": "Continuity and spatial averaging in ion-acoustic reconnection diagnostics",
+  "abstract": "Li, Liu and Loureiro investigate ion-acoustic instability and ion heating in collisionless magnetic reconnection. We examine two derivational issues in the final journal article, separately from its observed waves and temperature histories. A temperature estimate in Appendix B divides by the in-plane ion velocity divergence. Steady continuity at a two-dimensional stagnation point with positive density sets that divisor to zero. Eliminating the normalized moment subsystem without division instead gives a compatibility condition, leaving the out-of-plane temperature undetermined when the corresponding heat-flux divergence vanishes. Explicit positive-temperature subsystem witnesses illustrate the missing closure; they are not complete kinetic solutions. A second issue concerns spatial averaging. For a finite Savitzky-Golay filter, the covariance of two fields generally differs from the filtered product of their pointwise residuals. The source's drag and time-dependent fluctuation formulas therefore require an explicit residual convention. Subtracting the same center mean throughout each window supplies a valid alternative and exactly recovers the covariance. Synthetic rational examples and independent controls demonstrate both outcomes. The original postprocessing implementation and underlying fields were not obtained, so no error in the plotted anomalous terms or revised reconnection rate is established. The supported revision concerns a singular temperature derivation and reproducible operator definitions, rather than a refutation of the reported instability or heating.",
+  "author": "Taylor Kalin",
+  "orcid": "0009-0003-9000-9315",
+  "version": "1.0.0",
+  "scientific_code_commit": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+  "code_doi": "10.5281/zenodo.23782239",
+  "repository": "https://github.com/Teylersf/ion-acoustic-moment-filter-audit",
+  "agentpub_paper_type": "short_communication",
+  "keywords": [
+    "magnetic reconnection",
+    "ion acoustic instability",
+    "moment closure",
+    "continuity",
+    "spatial filtering",
+    "reproducibility"
+  ]
+}

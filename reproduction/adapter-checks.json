@@ -1,0 +1,659 @@
+{
+  "prepared_at_utc": "2026-10-29T23:29:02.510067+00:00",
+  "canonical_version": "1.0.0",
+  "preparer_sha256": "83f52b37ccc34d01b3666e2a56ed3a9bb164367eb031470529091758e52219e4",
+  "pinned_input_inventory_sha256": "75e523a729529728068fbd774793b493f634ea063072074d4987f79471e89d46",
+  "canonical_manuscript_sha256": "16c43578caf6c0ff410fe18b5f7e6f433bcaacfb5d6333862340fb1b619f9a3a",
+  "canonical_PDF_sha256": "ad44e02676294d9f649e3e9cd98f2f595840d95b5d79721f64db787b3ec16e4b",
+  "canonical_metadata_sha256": "8c756be652be1e7c2641f0e7821d5dba695a258d7c4a7411b86196edbb283c49",
+  "computational_commit": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+  "computational_tree": "f255faf5a2dae914330c5c034c4ad039f4475e9b",
+  "canonical_content_commit": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+  "code_doi": "10.5281/zenodo.23782239",
+  "copied_pinned_files": [
+    {
+      "source_path": ".gitattributes",
+      "package_path": "reproduction/canonical/.gitattributes",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 113,
+      "sha256": "0c051c89bafcea92295cd8d7e5896a66884f16f3437ca626c830ef9a3697b880"
+    },
+    {
+      "source_path": ".gitignore",
+      "package_path": "reproduction/canonical/.gitignore",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 217,
+      "sha256": "1c2fc10d70d79623f38357e120cf4a53e913bb90f1f27fd56bd94501d49f722c"
+    },
+    {
+      "source_path": "COMPUTATIONAL_METHODS.md",
+      "package_path": "reproduction/canonical/COMPUTATIONAL_METHODS.md",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 5799,
+      "sha256": "e271e32d0c5a30e774e35607241655969611c859bb7307d718947c7b476f0149"
+    },
+    {
+      "source_path": "LICENSE-CODE",
+      "package_path": "reproduction/canonical/LICENSE-CODE",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 1152,
+      "sha256": "0693f7eaa6acbeb25a5fd45f9a56775a06020565b0e19776e8bb4fc9ec4824bd"
+    },
+    {
+      "source_path": "LICENSE-MANUSCRIPT",
+      "package_path": "reproduction/canonical/LICENSE-MANUSCRIPT",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 1025,
+      "sha256": "6a1c9adc4691e462b3139cc55f54326bf11c7575cb103fa0360a95cf4c18d42a"
+    },
+    {
+      "source_path": "README.md",
+      "package_path": "reproduction/canonical/README.md",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 3461,
+      "sha256": "b6d271d2be90df475e1bd897db25ef95c0b762d5bcd0e9714cb0fbe0f5fa8fbe"
+    },
+    {
+      "source_path": "REPRODUCIBILITY.md",
+      "package_path": "reproduction/canonical/REPRODUCIBILITY.md",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 2844,
+      "sha256": "140d56513f05e4edf8f9a58e2dcd7e09ab0980cd80a52608be914f742f8f302d"
+    },
+    {
+      "source_path": "SOURCE_CONCORDANCE.md",
+      "package_path": "reproduction/canonical/SOURCE_CONCORDANCE.md",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 11721,
+      "sha256": "7285869751216f62a5794dcac818c4693759ede24d7253c3c756d18f77264dc0"
+    },
+    {
+      "source_path": "audit/independent-filter-review/check_filter_identities.py",
+      "package_path": "reproduction/canonical/audit/independent-filter-review/check_filter_identities.py",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 13825,
+      "sha256": "ee61c6d47de26759b79e17111b4f835540377d6a7071197f96a6c66ed04ac2db"
+    },
+    {
+      "source_path": "audit/independent-filter-review/filter-and-momentum-review.md",
+      "package_path": "reproduction/canonical/audit/independent-filter-review/filter-and-momentum-review.md",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 12315,
+      "sha256": "8b75d10cd24066be33dded407e72bfd619d7ac7c4366aba38d1018f7b430307e"
+    },
+    {
+      "source_path": "audit/independent-filter-review/filter-identity-checks-original-run.json",
+      "package_path": "reproduction/canonical/audit/independent-filter-review/filter-identity-checks-original-run.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 30855,
+      "sha256": "6cc5376033f372e0a9bf02a16288ca53e5ab467146beffe55d965f7b94705254"
+    },
+    {
+      "source_path": "audit/independent-filter-review/filter-identity-checks.json",
+      "package_path": "reproduction/canonical/audit/independent-filter-review/filter-identity-checks.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 30855,
+      "sha256": "6cc5376033f372e0a9bf02a16288ca53e5ab467146beffe55d965f7b94705254"
+    },
+    {
+      "source_path": "audit/independent-filter-review/original-review-manifest.json",
+      "package_path": "reproduction/canonical/audit/independent-filter-review/original-review-manifest.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 1161,
+      "sha256": "c0f2204cc0bf23b7870f7279765f3e982dcad8926eb77199e98b94cc360d4931"
+    },
+    {
+      "source_path": "audit/independent-filter-review/source-formula-locators.json",
+      "package_path": "reproduction/canonical/audit/independent-filter-review/source-formula-locators.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 4326,
+      "sha256": "8f1bf08c3049eac2d3838201d708f05ed8d3407947a6df93ade9ba79d5f51cca"
+    },
+    {
+      "source_path": "audit/independent-filter-review/standalone-stderr.txt",
+      "package_path": "reproduction/canonical/audit/independent-filter-review/standalone-stderr.txt",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_path": "audit/independent-filter-review/standalone-stdout.txt",
+      "package_path": "reproduction/canonical/audit/independent-filter-review/standalone-stdout.txt",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 348,
+      "sha256": "d098fcca718288d67843d976e3764507496c90cc2185b2302f6d8e6f4d03a0b1"
+    },
+    {
+      "source_path": "audit/independent-moment-review/DENSITY_CONVENTION_ADDENDUM.md",
+      "package_path": "reproduction/canonical/audit/independent-moment-review/DENSITY_CONVENTION_ADDENDUM.md",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 2047,
+      "sha256": "3adbb0aa6a89c51e295af0ad7abbcf54f72b7cae3922566ff7a50c0c222e35e9"
+    },
+    {
+      "source_path": "audit/independent-moment-review/independent-review-original.md",
+      "package_path": "reproduction/canonical/audit/independent-moment-review/independent-review-original.md",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 13261,
+      "sha256": "cae7eae01660e0bb9b0026a0b6880ee61837286aade2f33102365892995d8af5"
+    },
+    {
+      "source_path": "audit/independent-moment-review/independent-review.md",
+      "package_path": "reproduction/canonical/audit/independent-moment-review/independent-review.md",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 13964,
+      "sha256": "ff4a905da63860616f82c3ef78fbf947b4b1441e6c585e5332b86e61c6f192aa"
+    },
+    {
+      "source_path": "audit/independent-moment-review/source-identity-checks-original-run.json",
+      "package_path": "reproduction/canonical/audit/independent-moment-review/source-identity-checks-original-run.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 9771,
+      "sha256": "5dec3ded3bf6d6e9b83c69aeb483aa476373d7ea0712862b64e76cf940013f09"
+    },
+    {
+      "source_path": "audit/independent-moment-review/source-identity-checks.json",
+      "package_path": "reproduction/canonical/audit/independent-moment-review/source-identity-checks.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 9771,
+      "sha256": "5dec3ded3bf6d6e9b83c69aeb483aa476373d7ea0712862b64e76cf940013f09"
+    },
+    {
+      "source_path": "audit/independent-moment-review/standalone-stderr.txt",
+      "package_path": "reproduction/canonical/audit/independent-moment-review/standalone-stderr.txt",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_path": "audit/independent-moment-review/standalone-stdout.txt",
+      "package_path": "reproduction/canonical/audit/independent-moment-review/standalone-stdout.txt",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 2485,
+      "sha256": "9a0c91f5d28e3b87a270261586f70809d470f06f5e0c0b7089db4bda64cdc385"
+    },
+    {
+      "source_path": "audit/independent-moment-review/verify_source_identities.py",
+      "package_path": "reproduction/canonical/audit/independent-moment-review/verify_source_identities.py",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 11819,
+      "sha256": "813e6149c24a4a0984a54f4e5879d09c963cfe3d08ccf464be7b7744371f0212"
+    },
+    {
+      "source_path": "audit/independent-review-copy-verification-initial.json",
+      "package_path": "reproduction/canonical/audit/independent-review-copy-verification-initial.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 7630,
+      "sha256": "068a4f0f4b09ea539e68938c5dbcd1c37db6c78efcba5e1e16d9508846e021ed"
+    },
+    {
+      "source_path": "audit/independent-review-copy-verification.json",
+      "package_path": "reproduction/canonical/audit/independent-review-copy-verification.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 8907,
+      "sha256": "cfc650802c76fb3ff6f68a498bb7646ca77b59c87769907edae79b55810aadf6"
+    },
+    {
+      "source_path": "audit/primary-reference-checks.json",
+      "package_path": "reproduction/canonical/audit/primary-reference-checks.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 4669,
+      "sha256": "345bd32ecac9bf8eb5058fa26caf60fda7f5f4a667bc5aac3a42e67002ec688c"
+    },
+    {
+      "source_path": "audit/producer-independent-review.json",
+      "package_path": "reproduction/canonical/audit/producer-independent-review.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 6828,
+      "sha256": "bb0d15f4532a58b71bca5b254c7446cbf6a4821b5ce47eab23f6f89d2ec88b01"
+    },
+    {
+      "source_path": "data/computational-artifact-manifest.json",
+      "package_path": "reproduction/canonical/data/computational-artifact-manifest.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 7557,
+      "sha256": "230e709f63a80ff3391960737ee552e983bf4605690a843c9351604504d38349"
+    },
+    {
+      "source_path": "data/moment-families.csv",
+      "package_path": "reproduction/canonical/data/moment-families.csv",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 18001,
+      "sha256": "025b4ee9ea1ff4f5ca0535b3852f7a172b5e524cb04d05124eabd1885cc25254"
+    },
+    {
+      "source_path": "data/producer-reproducibility.json",
+      "package_path": "reproduction/canonical/data/producer-reproducibility.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 2306,
+      "sha256": "097350cb06b7155ebab1b8dcb5922b61d595168b1db078e149db1cce29251ef3"
+    },
+    {
+      "source_path": "data/producer-results.json",
+      "package_path": "reproduction/canonical/data/producer-results.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 3669,
+      "sha256": "d95c3890ad4f7355e10923cf69db8ea38e3831d36ec198a511227a4b5e83f5f4"
+    },
+    {
+      "source_path": "data/producer-source-locators.json",
+      "package_path": "reproduction/canonical/data/producer-source-locators.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 1588,
+      "sha256": "f79e3b057204dd21b388e734514184c04c889b73a76bf81c68d28784ebde617f"
+    },
+    {
+      "source_path": "data/sg-covariances.csv",
+      "package_path": "reproduction/canonical/data/sg-covariances.csv",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 1720,
+      "sha256": "ef65d03c4ea40d20c42c7ad74024407e0c1318fa474d1410de63429a2f8b97bc"
+    },
+    {
+      "source_path": "data/sg-kernels.csv",
+      "package_path": "reproduction/canonical/data/sg-kernels.csv",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 801,
+      "sha256": "d5d9b99b7655839e2094ea4409d4bbda0ee9221d071bb0453e850f6772c5044f"
+    },
+    {
+      "source_path": "data/sg-temporal-controls.csv",
+      "package_path": "reproduction/canonical/data/sg-temporal-controls.csv",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 1542,
+      "sha256": "ee63421e3df51f0edc5ec4d197151a1b85ac816ae0efa5854df7588d4effeaae"
+    },
+    {
+      "source_path": "figures/filter-covariance.png",
+      "package_path": "reproduction/canonical/figures/filter-covariance.png",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 128729,
+      "sha256": "d60e0bc6395c66530953ed53475823f20ed8347fb2d422eb40485452edacf79f"
+    },
+    {
+      "source_path": "figures/moment-compatibility.png",
+      "package_path": "reproduction/canonical/figures/moment-compatibility.png",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 152312,
+      "sha256": "5c4579098c8cbc74797eb271b880db39d800e28e3dde43683fe2242a648eb301"
+    },
+    {
+      "source_path": "reproduction/run_audit.py",
+      "package_path": "reproduction/canonical/reproduction/run_audit.py",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 19203,
+      "sha256": "f12ac9b9e6da0cc8d8b5d26d921e329d386a739d996dc8662c407ca1e22e2f20"
+    },
+    {
+      "source_path": "requirements-verifiers.txt",
+      "package_path": "reproduction/canonical/requirements-verifiers.txt",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 27,
+      "sha256": "b39db1ccf989f64ef9f9c037e49567930984dc3ae56cf7f0fb869c069b36a0e0"
+    },
+    {
+      "source_path": "requirements.txt",
+      "package_path": "reproduction/canonical/requirements.txt",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 32,
+      "sha256": "adc7fa5a4dbaa7335c32c1e7d10cffae5c96f67ba2f5f22c8453c1bc11cf8e0a"
+    },
+    {
+      "source_path": "source-provenance.json",
+      "package_path": "reproduction/canonical/source-provenance.json",
+      "source_revision": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+      "role": "immutable_computational_snapshot",
+      "bytes": 35236,
+      "sha256": "ec6e177c8647fb249f45a77dbb4f10d700211248660005818db15f7aaff4fb41"
+    },
+    {
+      "source_path": "experiments/build_paper.py",
+      "package_path": "reproduction/canonical/experiments/build_paper.py",
+      "source_revision": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+      "role": "canonical_paper_TeX_builder_metadata",
+      "bytes": 1907,
+      "sha256": "46e451218e64572d1c3344374c1e2df670d51c40b8232ea08653651ba13c3506"
+    },
+    {
+      "source_path": "paper/latex/body.tex",
+      "package_path": "reproduction/canonical/paper/latex/body.tex",
+      "source_revision": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+      "role": "canonical_paper_TeX_builder_metadata",
+      "bytes": 24032,
+      "sha256": "6b2e68202a5a0a094c74f5abced716246c90d88d7d096c1b05e0011c7a6fe49f"
+    },
+    {
+      "source_path": "paper/latex/images/filter-covariance.png",
+      "package_path": "reproduction/canonical/paper/latex/images/filter-covariance.png",
+      "source_revision": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+      "role": "canonical_paper_TeX_builder_metadata",
+      "bytes": 128729,
+      "sha256": "d60e0bc6395c66530953ed53475823f20ed8347fb2d422eb40485452edacf79f"
+    },
+    {
+      "source_path": "paper/latex/images/moment-compatibility.png",
+      "package_path": "reproduction/canonical/paper/latex/images/moment-compatibility.png",
+      "source_revision": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+      "role": "canonical_paper_TeX_builder_metadata",
+      "bytes": 152312,
+      "sha256": "5c4579098c8cbc74797eb271b880db39d800e28e3dde43683fe2242a648eb301"
+    },
+    {
+      "source_path": "paper/latex/main.tex",
+      "package_path": "reproduction/canonical/paper/latex/main.tex",
+      "source_revision": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+      "role": "canonical_paper_TeX_builder_metadata",
+      "bytes": 884,
+      "sha256": "6c8f0dae5e83b2ce8adce8f0da6dbfe85cf3faf57ee60ff522383b9ca8e67788"
+    },
+    {
+      "source_path": "paper/main.pdf",
+      "package_path": "reproduction/canonical/paper/main.pdf",
+      "source_revision": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+      "role": "canonical_paper_TeX_builder_metadata",
+      "bytes": 355428,
+      "sha256": "ad44e02676294d9f649e3e9cd98f2f595840d95b5d79721f64db787b3ec16e4b"
+    },
+    {
+      "source_path": "paper/manuscript.md",
+      "package_path": "reproduction/canonical/paper/manuscript.md",
+      "source_revision": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+      "role": "canonical_paper_TeX_builder_metadata",
+      "bytes": 23117,
+      "sha256": "16c43578caf6c0ff410fe18b5f7e6f433bcaacfb5d6333862340fb1b619f9a3a"
+    },
+    {
+      "source_path": "submissions/metadata.json",
+      "package_path": "reproduction/canonical/submissions/metadata.json",
+      "source_revision": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+      "role": "canonical_paper_TeX_builder_metadata",
+      "bytes": 2217,
+      "sha256": "8c756be652be1e7c2641f0e7821d5dba695a258d7c4a7411b86196edbb283c49"
+    }
+  ],
+  "copy_counts": {
+    "computational_H": 42,
+    "paper_TeX_builder_metadata_release": 8,
+    "total": 50
+  },
+  "canonical_scientific_sections": 6,
+  "platform_sections": [
+    "Introduction",
+    "Related Work",
+    "Methodology",
+    "Results",
+    "Discussion",
+    "Limitations",
+    "Conclusion"
+  ],
+  "mapping": "Original scientific order; section 1 paragraphs 1/2/3-4 become Intro/Related Work/Methods; Methods also contains section 2; Results sections 3-4; Discussion section 5; section 6 split at recorded paragraph boundary.",
+  "added_platform_headings": [
+    "### 2. Continuity before division",
+    "### 3. What a finite spatial mean implies",
+    "### 4. An exact counterexample and an exact alternative"
+  ],
+  "full_scientific_text_exact_after_declared_reversal": true,
+  "ordered_paragraphs_and_protected_blocks_preserved": true,
+  "abstract_and_full_bibliography_exact": true,
+  "canonical_bibliography_verbatim_in_payload_metadata": true,
+  "math_segments": 104,
+  "protected_block_counts": {
+    "math": 104,
+    "tables": 0,
+    "quotations": 0,
+    "code_fences": 0,
+    "proof_markers": 0,
+    "figures": 2
+  },
+  "numbered_equation_tags": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+  ],
+  "figures": 2,
+  "references": 5,
+  "scientific_section_bodies": [
+    {
+      "heading": "1. Source, version and scope",
+      "sha256": "19c775e7e381864bd579de42a6f4a0584efda6225a0593fd20a0a0fda7e26061"
+    },
+    {
+      "heading": "2. Continuity before division",
+      "sha256": "4e7679e4c4381e9c7869ff3d4311eb2135303e73d123bc6b68fef34f55c7d788"
+    },
+    {
+      "heading": "3. What a finite spatial mean implies",
+      "sha256": "049674e116fc371ade11248d5ef08f1f228015f24d76bdccbe63643e466f17a6"
+    },
+    {
+      "heading": "4. An exact counterexample and an exact alternative",
+      "sha256": "ec1232d165ef95fd64ce861a606095e86e368600894106b8561999c6e9330e60"
+    },
+    {
+      "heading": "5. Verification and retained controls",
+      "sha256": "1377f8e549bc8580d66077546fe1890641a6857561c5d6e8d03336ab2a39e1ba"
+    },
+    {
+      "heading": "6. Consequences and limits",
+      "sha256": "bfe67ce6f97e782960bfeae1ad5a065b768b51b9289a76c126c107843514c1a1"
+    }
+  ],
+  "citation_format": {
+    "documented_style": "[Author, Year]",
+    "instructions_URL": "https://api.agentpub.org/v1/instructions",
+    "reversal_ledger_by_section": {
+      "Introduction": [
+        {
+          "canonical": "[1,2]",
+          "adapted": "[Li, Liu and Loureiro, 2026; Li, Liu and Loureiro, 2025]",
+          "reference_ids": [
+            "1",
+            "2"
+          ],
+          "adapted_start": 164,
+          "adapted_end": 220
+        }
+      ],
+      "Related Work": [
+        {
+          "canonical": "[1]",
+          "adapted": "[Li, Liu and Loureiro, 2026]",
+          "reference_ids": [
+            "1"
+          ],
+          "adapted_start": 136,
+          "adapted_end": 164
+        },
+        {
+          "canonical": "[2]",
+          "adapted": "[Li, Liu and Loureiro, 2025]",
+          "reference_ids": [
+            "2"
+          ],
+          "adapted_start": 288,
+          "adapted_end": 316
+        },
+        {
+          "canonical": "[1]",
+          "adapted": "[Li, Liu and Loureiro, 2026]",
+          "reference_ids": [
+            "1"
+          ],
+          "adapted_start": 636,
+          "adapted_end": 664
+        }
+      ],
+      "Methodology": [],
+      "Results": [
+        {
+          "canonical": "[3]",
+          "adapted": "[Savitzky and Golay, 1964]",
+          "reference_ids": [
+            "3"
+          ],
+          "adapted_start": 569,
+          "adapted_end": 595
+        },
+        {
+          "canonical": "[4]",
+          "adapted": "[Germano, 1992]",
+          "reference_ids": [
+            "4"
+          ],
+          "adapted_start": 1406,
+          "adapted_end": 1421
+        },
+        {
+          "canonical": "[3]",
+          "adapted": "[Savitzky and Golay, 1964]",
+          "reference_ids": [
+            "3"
+          ],
+          "adapted_start": 3027,
+          "adapted_end": 3053
+        }
+      ],
+      "Discussion": [
+        {
+          "canonical": "[5]",
+          "adapted": "[Kalin, 2026]",
+          "reference_ids": [
+            "5"
+          ],
+          "adapted_start": 22,
+          "adapted_end": 35
+        }
+      ],
+      "Limitations": [],
+      "Conclusion": [
+        {
+          "canonical": "[5]",
+          "adapted": "[Kalin, 2026]",
+          "reference_ids": [
+            "5"
+          ],
+          "adapted_start": 526,
+          "adapted_end": 539
+        }
+      ]
+    },
+    "local_numeric_markers_unchanged": true,
+    "math_code_link_labels_excluded": true
+  },
+  "figure_interface": {
+    "inline_Markdown_pairs_preserved": 2,
+    "structured_figures_submitted": 0,
+    "note": "Live schema declares optional figures[].data as an unspecified object; no image-data keys are invented. The full PDF is the typeset fallback, separately from API-text preservation."
+  },
+  "section_character_counts": {
+    "Introduction": {
+      "unicode_codepoints": 651,
+      "UTF16_code_units": 651
+    },
+    "Related Work": {
+      "unicode_codepoints": 769,
+      "UTF16_code_units": 769
+    },
+    "Methodology": {
+      "unicode_codepoints": 5877,
+      "UTF16_code_units": 5877
+    },
+    "Results": {
+      "unicode_codepoints": 6619,
+      "UTF16_code_units": 6619
+    },
+    "Discussion": {
+      "unicode_codepoints": 3237,
+      "UTF16_code_units": 3237
+    },
+    "Limitations": {
+      "unicode_codepoints": 1038,
+      "UTF16_code_units": 1038
+    },
+    "Conclusion": {
+      "unicode_codepoints": 1837,
+      "UTF16_code_units": 1837
+    }
+  },
+  "body_regex_words": 2904,
+  "body_whitespace_words": 2484,
+  "guideline_checks": {
+    "title": true,
+    "abstract": true,
+    "references": true,
+    "body_words": true,
+    "required_sections": true,
+    "section_order": true,
+    "section_character_caps": true,
+    "tags": true
+  },
+  "paper_type": "short_communication",
+  "schema_snapshot_sha256": "e62bc0d9369ae2a3b38161340887a7ef08c7736a46ac186f40ffe424b5370847",
+  "agentpub_payload_sha256": "0e574e385498ded831ba193cb265e6f3b4a36e310ae8861ec418991b135aec53",
+  "AAES_registration_sha256": "4ffd30be07b4cb615b47ad840462e8191f6276d73b2857e8a27804c06292f8a5",
+  "AAES_bounded_claims": 5,
+  "model_or_token_usage_estimated": false,
+  "unknown_token_sentinel": -1,
+  "formal_agent_gates_open": false,
+  "canonical_inputs_unchanged": true,
+  "permitted_changes": [
+    "agent front byline/disclosure",
+    "figure routes",
+    "lossless paragraph grouping and three source headings",
+    "AgentPub-only reversible author-year prose markers"
+  ],
+  "nonprivate_runtime_locator_allowlist": [
+    "C:/Python313/python.exe"
+  ]
+}

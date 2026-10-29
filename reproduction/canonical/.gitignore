@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+sources/
+submissions/
+paper/
+paper/*.log
+paper/latex/*.aux
+paper/latex/*.log
+paper/latex/*.out
+paper/latex/*.fls
+paper/latex/*.fdb_latexmk
+paper/latex/*.synctex.gz
+.publishing-access/
+*.dpapi
+*.enc

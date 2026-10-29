@@ -1,0 +1,15 @@
+{
+  "prepared_at_utc": "2026-10-29T23:29:02.510067+00:00",
+  "publication_state": "local_prepared_not_submitted",
+  "canonical_version": "1.0.0",
+  "computational_commit": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+  "computational_tree": "f255faf5a2dae914330c5c034c4ad039f4475e9b",
+  "canonical_content_commit": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+  "canonical_manuscript_sha256": "16c43578caf6c0ff410fe18b5f7e6f433bcaacfb5d6333862340fb1b619f9a3a",
+  "AgentPub_submission_gate_open": false,
+  "AAES_submission_gate_open": false,
+  "own_Publishfun_final_disposition_verified": false,
+  "formal_submission_performed": false,
+  "public_agent_repository_verified": false,
+  "note": "Conservative offline state. Root owns the first Publish.fun submission and live disposition. A preflight never opens a formal gate. No acceptance, closure, release or agent eligibility is inferred."
+}

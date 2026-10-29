@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.json -text
+*.csv -text
+SOURCE_CONCORDANCE.md -text
+audit/** -text
+*.png binary
+*.pdf binary

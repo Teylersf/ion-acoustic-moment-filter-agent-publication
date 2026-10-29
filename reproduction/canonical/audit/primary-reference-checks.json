@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T21:58:03.272227+00:00",
+  "scope": "Bounded supporting-primary-reference metadata and accessible-abstract verification only.",
+  "references": [
+    {
+      "doi": "10.1021/ac60214a047",
+      "title": "Smoothing and Differentiation of Data by Simplified Least Squares Procedures.",
+      "authors_as_registered": [
+        "Abraham. Savitzky",
+        "M. J. E. Golay"
+      ],
+      "journal": "Analytical Chemistry",
+      "volume": "36",
+      "issue": "8",
+      "pages": "1627-1639",
+      "publisher": "American Chemical Society (ACS)",
+      "journal_issue_date": {
+        "date-parts": [
+          [
+            1964,
+            7,
+            1
+          ]
+        ]
+      },
+      "registry_online_date": {
+        "date-parts": [
+          [
+            2002,
+            5,
+            1
+          ]
+        ]
+      },
+      "primary_registry_check": {
+        "url": "https://api.crossref.org/works/10.1021/ac60214a047",
+        "checked_at_utc": "2026-10-29T21:57:09.428698+00:00",
+        "HTTP_status": 200,
+        "bytes": 2167,
+        "sha256": "801d29eff6f5ff950a0ce21c599f536fdc80a944262a55216a9bee181e4dd406"
+      },
+      "DOI_record": "https://doi.org/10.1021/ac60214a047",
+      "verification_scope": "Live primary-registry bibliographic metadata only; no ACS full article or abstract was read in this check.",
+      "prior_publisher_access_observation": {
+        "reported_by_parent": "The DOI/publisher page returned 403 before this check.",
+        "retried_here": false,
+        "bypass_or_paywall_PDF_attempt": false
+      },
+      "supported_use": "Bibliographic attribution for the named least-squares smoothing/differentiation method. The synthetic coefficients in this study are derived and checked independently, not claimed to be copied from an unread full article.",
+      "year_to_cite": 1964
+    },
+    {
+      "doi": "10.1017/s0022112092001733",
+      "title": "Turbulence: the filtering approach",
+      "authors_as_registered": [
+        "M. Germano"
+      ],
+      "journal": "Journal of Fluid Mechanics",
+      "volume": "238",
+      "issue": null,
+      "pages": "325-336",
+      "publisher": "Cambridge University Press (CUP)",
+      "journal_issue_date": {
+        "date-parts": [
+          [
+            1992,
+            5
+          ]
+        ]
+      },
+      "registry_online_date": {
+        "date-parts": [
+          [
+            2006,
+            4,
+            26
+          ]
+        ]
+      },
+      "primary_registry_check": {
+        "url": "https://api.crossref.org/works/10.1017/S0022112092001733",
+        "checked_at_utc": "2026-10-29T21:57:09.764432+00:00",
+        "HTTP_status": 200,
+        "bytes": 8509,
+        "sha256": "d07fde5ffe4c026b870e2f9e4c9b9a1096501d84715f40f5e9a472102859f3f3"
+      },
+      "DOI_record": "https://doi.org/10.1017/s0022112092001733",
+      "verification_scope": "Live Crossref metadata plus the complete publicly accessible publisher abstract; no full-paper access or equation-specific reading is claimed.",
+      "publisher_abstract_check": {
+        "url": "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/turbulence-the-filtering-approach/1B92D8CFAEEB0D6B4ADA6BB31282D378",
+        "checked_at_utc": "2026-10-29T21:57:22.637196+00:00",
+        "HTTP_status": 200,
+        "bytes": 786676,
+        "sha256": "2f5c52878b2d98fca0f805d3b130e3c06443e1bdd1c2ae0d91995670b8f954b0"
+      },
+      "relevant_content_paraphrase": "The abstract distinguishes general filtering from the usual statistical decomposition into means and fluctuations: arbitrary filters need not satisfy Reynolds averaging rules. It presents an operator approach using generalized central moments and relationships between filtering levels.",
+      "short_direct_quote": "the Reynolds rules of the mean are no longer valid",
+      "supported_use": "Primary context for distinguishing finite spatial filtering from Reynolds averaging and for full filtered central moments. The source-specific plasma momentum derivation and synthetic witnesses remain this study own bounded checks.",
+      "year_to_cite": 1992
+    }
+  ],
+  "date_caveat": "Cite original journal years 1964 and 1992, rather than the later registry/platform online dates 2002 and 2006.",
+  "no_full_prior_papers_claimed_read": true,
+  "no_Ng_citation_added_or_verified": true,
+  "no_fulltext_PDF_downloads_or_access_bypass": true,
+  "no_external_mutations_or_correspondence": true,
+  "manuscript_or_bibliography_files_edited": false
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T21:45:23.644774+00:00",
+  "classification": "Conditional pointwise-residual identity gap; source residual implementation unresolved",
+  "files": [
+    {
+      "file": "check_filter_identities.py",
+      "bytes": 13825,
+      "sha256": "ee61c6d47de26759b79e17111b4f835540377d6a7071197f96a6c66ed04ac2db"
+    },
+    {
+      "file": "filter-identity-checks.json",
+      "bytes": 30855,
+      "sha256": "6cc5376033f372e0a9bf02a16288ca53e5ab467146beffe55d965f7b94705254"
+    },
+    {
+      "file": "filter-and-momentum-review.md",
+      "bytes": 12315,
+      "sha256": "8b75d10cd24066be33dded407e72bfd619d7ac7c4366aba38d1018f7b430307e"
+    },
+    {
+      "file": "source-formula-locators.json",
+      "bytes": 4326,
+      "sha256": "8f1bf08c3049eac2d3838201d708f05ed8d3407947a6df93ade9ba79d5f51cca"
+    }
+  ],
+  "source_files_modified": false,
+  "external_mutations": false,
+  "script_actual_exit_code": 0,
+  "claim_limit": "Window-centered residual covariance is exact and could be the hidden implementation. No inference that source plotted values or its routine are wrong."
+}

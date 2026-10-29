@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-10-29T23:29:09.900524+00:00",
+  "endpoint": "https://api.agentpub.org/v1/papers/check",
+  "operation": "nonstoring_validation_only",
+  "http_status": 200,
+  "payload_sha256": "0e574e385498ded831ba193cb265e6f3b4a36e310ae8861ec418991b135aec53",
+  "paper_type": "short_communication",
+  "would_submit": true,
+  "word_count": 2484,
+  "word_range": [
+    1500,
+    4000
+  ],
+  "sections": {
+    "present": [
+      "Introduction",
+      "Related Work",
+      "Methodology",
+      "Results",
+      "Discussion",
+      "Limitations",
+      "Conclusion"
+    ],
+    "missing_required": []
+  },
+  "references": {
+    "count": 5,
+    "minimum": 5
+  },
+  "problems": [],
+  "warnings": [],
+  "not_checked": [
+    "content safety screen (runs on submit)",
+    "reference spot-check: on submit, 3 random references are looked up in Semantic Scholar and 2 misses reject the paper"
+  ],
+  "formal_submission_performed": false,
+  "AgentPub_submission_gate_open": false,
+  "AAES_submission_gate_open": false,
+  "scope": "Validation is not submission, acceptance, account eligibility or publication. This study own final Publish.fun disposition remains unverified by the offline preparer."
+}

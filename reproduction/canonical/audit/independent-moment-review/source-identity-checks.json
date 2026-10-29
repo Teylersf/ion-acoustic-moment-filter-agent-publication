@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "all_checks_passed": true,
+  "scope": "Definitions, analytic moment/filter counterchecks and uniform Maxwellian marginal controls; no source curves/PIC rerun or reconstructed fields.",
+  "verifier_sha256": "813e6149c24a4a0984a54f4e5879d09c963cfe3d08ccf464be7b7744371f0212",
+  "runtime": {
+    "python": "3.13.7",
+    "numpy": "2.2.1",
+    "scipy": "1.17.1"
+  },
+  "normalization_positive_controls": [
+    {
+      "Ti_over_Te": 0.02,
+      "vth_e_over_c": 0.35007002100700246,
+      "lambda_De_over_de0": 0.35007002100700246,
+      "dx_over_lambda_De": 0.3209630754401281,
+      "dy_over_lambda_De": 0.3209630754401281,
+      "electromagnetic_CFL_2D": 0.9892989554224749,
+      "wavelength_over_de0_at_k_normalized_point05": 7.001400420140049,
+      "wavelengths_within_5de0_FWHM_at_that_typical_k": 0.714142842854285
+    },
+    {
+      "Ti_over_Te": 0.1,
+      "vth_e_over_c": 0.337099931231621,
+      "lambda_De_over_de0": 0.337099931231621,
+      "dx_over_lambda_De": 0.33331229155486125,
+      "dy_over_lambda_De": 0.33331229155486125,
+      "electromagnetic_CFL_2D": 0.9892989554224749,
+      "wavelength_over_de0_at_k_normalized_point05": 6.74199862463242,
+      "wavelengths_within_5de0_FWHM_at_that_typical_k": 0.7416198487095663
+    },
+    {
+      "Ti_over_Te": 1.0,
+      "vth_e_over_c": 0.25,
+      "lambda_De_over_de0": 0.25,
+      "dx_over_lambda_De": 0.3333333333333333,
+      "dy_over_lambda_De": 0.3333333333333333,
+      "electromagnetic_CFL_2D": 0.9893838082362174,
+      "wavelength_over_de0_at_k_normalized_point05": 5.0,
+      "wavelengths_within_5de0_FWHM_at_that_typical_k": 1.0
+    }
+  ],
+  "plasma_function_identity_checks": [
+    {
+      "z": [
+        0.2,
+        0.0
+      ],
+      "absolute_error": 0.0
+    },
+    {
+      "z": [
+        1.3,
+        0.4
+      ],
+      "absolute_error": 2.2887833992611187e-16
+    },
+    {
+      "z": [
+        -0.8,
+        0.2
+      ],
+      "absolute_error": 1.5700924586837752e-16
+    },
+    {
+      "z": [
+        2.0,
+        -0.1
+      ],
+      "absolute_error": 2.6558837364083264e-16
+    }
+  ],
+  "nonrelativistic_Doppler_positive_controls": [
+    {
+      "omega": [
+        0.025,
+        0.003
+      ],
+      "k": 0.8,
+      "ion_drift": 0.01,
+      "relative_drift": 0.07,
+      "dielectric_frame_identity_absolute_error": 0.0
+    },
+    {
+      "omega": [
+        0.04,
+        0.001
+      ],
+      "k": 1.2,
+      "ion_drift": -0.015,
+      "relative_drift": 0.1,
+      "dielectric_frame_identity_absolute_error": 0.0
+    },
+    {
+      "omega": [
+        0.008,
+        0.002
+      ],
+      "k": 0.5,
+      "ion_drift": 0.02,
+      "relative_drift": 0.06,
+      "dielectric_frame_identity_absolute_error": 0.0
+    }
+  ],
+  "spatial_filter_counterexample": {
+    "filter": "centered five-point quadratic Savitzky-Golay",
+    "weights": [
+      "-3/35",
+      "12/35",
+      "17/35",
+      "12/35",
+      "-3/35"
+    ],
+    "fields": "n(x)=2+x^2/100; E(x)=x^2 at integer stencil locations; u=B=0; Pprime=nE",
+    "location": 0,
+    "G_n": "2",
+    "G_E": "0",
+    "exact_filtered_covariance": "-18/875",
+    "filtered_residual_product": "0",
+    "true_filtered_momentum_force_residual": "0",
+    "displayed_D2_force_residual_using_residual_product": "9/875",
+    "positive_controls": [
+      "Constant field identity passes.",
+      "Global Reynolds-mean covariance identity passes."
+    ],
+    "alternative_exact_interpretation": "Residuals defined relative to each evaluation window center, deltaQ_x(r)=Q(x+r)-GQ(x), recover exact weighted local covariance. This is distinct from filtering the pointwise residual field Q-GQ.",
+    "limits": "A valid SG filter is enough to refute a general Reynolds identity, but original discrete coefficients/polynomial order and PIC fields were not recovered. Disclosed cutoff/window labels do not establish an exact discrete kernel. No magnitude or sign of the reported physical anomaly is inferred."
+  },
+  "steady_xpoint_zz_subsystem_controls": [
+    {
+      "Tzz": "1",
+      "bulk_uz": "2",
+      "mass": "1",
+      "div_u": "0",
+      "zz_heat_flux_divergence": "0",
+      "offdiagonal_temperature_divergence": "3",
+      "Ez": "3",
+      "B5c_left": "12",
+      "B5c_right": "12",
+      "B5d_pass": true,
+      "B6c_division_defined": false,
+      "Tzz_equals_mass_times_uz_squared": false
+    },
+    {
+      "Tzz": "7",
+      "bulk_uz": "2",
+      "mass": "1",
+      "div_u": "0",
+      "zz_heat_flux_divergence": "0",
+      "offdiagonal_temperature_divergence": "3",
+      "Ez": "3",
+      "B5c_left": "12",
+      "B5c_right": "12",
+      "B5d_pass": true,
+      "B6c_division_defined": false,
+      "Tzz_equals_mass_times_uz_squared": false
+    }
+  ],
+  "finite_mass_ratio_marginal_controls": [
+    {
+      "Ti_over_Te": 0.02,
+      "mass_ratio": 100.0,
+      "Ud_over_vth_e": 0.07016679590223383,
+      "Ud_over_cs": 0.6815201686674734,
+      "phase_over_vth_e": 0.06704483875866979,
+      "zi": 3.3522419379334893,
+      "minus_ze": 0.0022075570667879187,
+      "k_lambda_De_local": 1.2755404598768787,
+      "k_lambda_De_initial_over_2pi_if_density_is_point2": 0.09078819219534828,
+      "marginal_ion_acoustic_branch": "lower electron-resonance branch; exact Maxwellian marginal susceptibility",
+      "finite_k": true,
+      "absolute_k_squared_epsilon_marginality_residual": 8.673617379884035e-19,
+      "absolute_dielectric_residual": 1.734723475976807e-18
+    },
+    {
+      "Ti_over_Te": 0.02,
+      "mass_ratio": 1836.0,
+      "Ud_over_vth_e": 0.017397450910507945,
+      "Ud_over_cs": 0.7240507796907096,
+      "phase_over_vth_e": 0.016719503591069988,
+      "zi": 3.5820341476917448,
+      "minus_ze": 0.0004793811468618207,
+      "k_lambda_De_local": 1.1141066698718896,
+      "k_lambda_De_initial_over_2pi_if_density_is_point2": 0.07929793969860574,
+      "marginal_ion_acoustic_branch": "lower electron-resonance branch; exact Maxwellian marginal susceptibility",
+      "finite_k": true,
+      "absolute_k_squared_epsilon_marginality_residual": 1.110234324198929e-14,
+      "absolute_dielectric_residual": 8.659829518273873e-15
+    },
+    {
+      "Ti_over_Te": 0.1,
+      "mass_ratio": 100.0,
+      "Ud_over_vth_e": 0.15438219561734146,
+      "Ud_over_cs": 1.3540214270441582,
+      "phase_over_vth_e": 0.11765532661682468,
+      "zi": 2.6308530823016034,
+      "minus_ze": 0.025969818122015403,
+      "k_lambda_De_local": 0.0,
+      "k_lambda_De_initial_over_2pi_if_density_is_point2": 0.0,
+      "marginal_ion_acoustic_branch": "lower electron-resonance branch; exact Maxwellian marginal susceptibility",
+      "finite_k": false,
+      "absolute_k_squared_epsilon_marginality_residual": 3.774758283725532e-14,
+      "absolute_dielectric_residual": null
+    },
+    {
+      "Ti_over_Te": 0.1,
+      "mass_ratio": 1836.0,
+      "Ud_over_vth_e": 0.06418527077407514,
+      "Ud_over_cs": 2.4121262779883814,
+      "phase_over_vth_e": 0.027458401773558367,
+      "zi": 2.6308530823016034,
+      "minus_ze": 0.025969818122015403,
+      "k_lambda_De_local": 0.0,
+      "k_lambda_De_initial_over_2pi_if_density_is_point2": 0.0,
+      "marginal_ion_acoustic_branch": "lower electron-resonance branch; exact Maxwellian marginal susceptibility",
+      "finite_k": false,
+      "absolute_k_squared_epsilon_marginality_residual": 3.774758283725532e-14,
+      "absolute_dielectric_residual": null
+    }
+  ],
+  "Appendix_E_scale_quantifier_positive_controls": [
+    {
+      "mass_ratio": 100.0,
+      "de_over_di": 0.1,
+      "printed_E3_RHS_over_some_scale_RHS": 0.09999999999999999,
+      "printed_E3_equals_every_scale_condition": true,
+      "intermediate_example_lambda_critical_over_di": 0.3162277660168379,
+      "intermediate_example_some_but_not_every_scale_passes": true
+    },
+    {
+      "mass_ratio": 1836.0,
+      "de_over_di": 0.02333800140046683,
+      "printed_E3_RHS_over_some_scale_RHS": 0.023338001400466834,
+      "printed_E3_equals_every_scale_condition": true,
+      "intermediate_example_lambda_critical_over_di": 0.15276780223747027,
+      "intermediate_example_some_but_not_every_scale_passes": true
+    }
+  ],
+  "Appendix_E_mass_factor_error_candidate": {
+    "status": "withdrawn_as_error",
+    "reason": "Printed E3 is exactly E2 evaluated at the lower electron-inertial edge de, giving a sufficient condition for every scale in (de,di). Evaluating at di instead gives existence of some scale. The phrase any scale admits the universal interpretation; no definite mass-factor algebra error is established.",
+    "retained_scope": "Positive quantifier clarification only; the assumed KAW scale interval must still be stated."
+  },
+  "Appendix_B_edge_gradient_scope": {
+    "source_locators": "Journal pp19-20 B4-B6c, p21 B12-B14 and p22 B17-B18",
+    "finding": "B17 differentiates and evaluates at the sheet edge delta a temperature relation inferred only at the X-point. This requires an extra spatial closure/extrapolation, even apart from the zero-divisor problem in B6c.",
+    "limits": "No measured Tyy temperature or physical heating mechanism is refuted. At the edge the source retains nonzero inflow and magnetic terms, absent from its X-point reduction."
+  },
+  "limits": [
+    "Moment subsystem witnesses do not assert a physical full zero-heat-flux steady solution; the source already acknowledges xx/yy closure failure.",
+    "Finite-mass marginal controls concern homogeneous drifting Maxwellians, not an inhomogeneous reconnection eigenmode.",
+    "The quoted typical wavelength does not fit a5de FWHM in the two cold cases, but higher marginal k and a wider effective mode support are not excluded.",
+    "The journal replaces the preprint MHD comparison with Doppler Eq4.1; preprint-only MHD claims are not attributed to the final article."
+  ],
+  "new_PIC_simulations": 0
+}
