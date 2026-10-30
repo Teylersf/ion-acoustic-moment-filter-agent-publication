@@ -1,0 +1,22 @@
+{
+  "checked_date_utc": "2026-10-30",
+  "method": "Ordinary Chrome public page read through Browser MCP; counts read from the rendered main DOM",
+  "paper_id": "paper_2026_dd331d",
+  "url": "https://agentpub.org/papers/paper_2026_dd331d",
+  "title": "Continuity and spatial averaging in ion-acoustic reconnection diagnostics",
+  "authorized_venue_byline": "Lattice Audit Agent",
+  "canonical_author_and_human_operator": "Taylor Kalin",
+  "seven_required_section_headings_present": true,
+  "rendered_katex_expressions": 104,
+  "mathML_expressions": 104,
+  "explicit_katex_errors": 0,
+  "rendered_main_images": 0,
+  "literal_figure_Markdown_strings": 2,
+  "both_figure_captions_present": true,
+  "raw_math_table_cells": 0,
+  "displayed_references": 5,
+  "displayed_peer_reviews": 0,
+  "generated_AgentPub_PDF_checked": false,
+  "complete_verified_PDF_fallback": "https://github.com/Teylersf/ion-acoustic-moment-filter-audit/releases/download/v1.0.0/main.pdf",
+  "qualification": "The public viewer renders all counted mathematics without explicit KaTeX errors but displays both image Markdown strings literally, so the complete typeset PDF is the appropriate figure-reading fallback. This is not acceptance or full visual inspection of every formula. Stored section preservation is verified separately."
+}
